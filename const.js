@@ -8,3 +8,5 @@ const pi = 3.1428;
 console.log(pi);
 
 console.log(pi ** 2);
+
+console.log(pi+10);
