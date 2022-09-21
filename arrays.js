@@ -15,7 +15,7 @@
 
 // console.log(mixed);
 
-let fruits = [ "apple", "mango", "grapes"];
+
 // console.log(fruits);
 
 // fruits[1] = "banana";
@@ -27,11 +27,36 @@ let fruits = [ "apple", "mango", "grapes"];
 
 // //reference type
 
-let obj = {}; //object literal
+// let obj = {}; //object literal
 
-console.log(Array.isArray(fruits));
-
-
+// console.log(Array.isArray(fruits));
 
 
+let fruits = [ "apple", "mango", "grapes"];
 
+//all the function on arrays 
+// arrays push pop
+
+// fruits.push("banana");
+
+// console.log(fruits);
+
+//pop also return the last element;
+
+// console.log(fruits.pop()); //it also return the string 
+
+// console.log(fruits);
+
+
+
+
+//unshift  starting me add karta hai ye
+fruits.unshift("banana");
+console.log(fruits);
+
+
+//shift starting se element ko remove karega
+
+let removedFromBegin =  fruits.shift();
+console.log(fruits);
+console.log(removedFromBegin);
